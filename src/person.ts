@@ -1,7 +1,7 @@
 class Person {
   sayHello() {
-    return "hello world!"
+    return "hello world!";
   }
 }
 
-export default Person
+export default Person;

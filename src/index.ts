@@ -1,11 +1,12 @@
-import * as express from "express"
-import { Request, Response } from "express"
-import Person from "@/person"
+import * as express from "express";
+import { Request, Response } from "express";
+import Person from "@/person";
 
-const app = express()
+const PORT = 3000;
+const app = express();
 
 app.get("/", (req: Request, res: Response) => {
-  res.send(new Person().sayHello())
-})
+  res.send(new Person().sayHello());
+});
 
-app.listen(3000, () => console.log("listening on port 3000!"))
+app.listen(3000, () => console.log(`listening on port ${PORT} `));
