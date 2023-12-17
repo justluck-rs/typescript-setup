@@ -20,15 +20,7 @@ To install project dependencies, run:
 yarn install
 ```
 
-### 3. Jest Testing
-
-Unit tests are configured using Jest. Test files are located in the `__tests__` directory. Run tests using the command:
-
-```bash
-yarn test
-```
-
-### 4. Husky and lint-staged
+### 3. Husky and lint-staged
 
 Husky is configured to ensure that commit standards and tests are checked before any push. lint-staged is used to run linting checks only on modified files.
 
@@ -36,6 +28,14 @@ After installation, run the following command to set up Husky:
 
 ```bash
 yarn husky:prepare
+```
+
+### 4. Jest Testing
+
+Unit tests are configured using Jest. Test files are located in the `__tests__` directory. Run tests using the command:
+
+```bash
+yarn test
 ```
 
 This prepares Husky for the necessary checks.
