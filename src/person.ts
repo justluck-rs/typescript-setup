@@ -1,7 +1,5 @@
-class Person {
+export default class Person {
   sayHello() {
-    return "hello world!";
+    return "hello world demais!";
   }
 }
-
-export default Person;
