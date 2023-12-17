@@ -12,6 +12,14 @@ The project utilizes TypeScript to provide static typing to JavaScript code. Typ
 
 The project adheres to the commit standards established by Conventional Commits (https://www.conventionalcommits.org/). This helps in automatically generating changelogs and maintaining a consistent commit history.
 
+### Installation
+
+To install project dependencies, run:
+
+```bash
+yarn install
+```
+
 ### 3. Jest Testing
 
 Unit tests are configured using Jest. Test files are located in the `__tests__` directory. Run tests using the command:
@@ -31,14 +39,6 @@ yarn husky:prepare
 ```
 
 This prepares Husky for the necessary checks.
-
-### Installation
-
-To install project dependencies, run:
-
-```bash
-yarn install
-```
 
 ### Running the Project
 
